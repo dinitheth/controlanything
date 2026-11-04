@@ -5,9 +5,9 @@
   "description": "ControlAnything Mac companion (Chrome): workbench (agent log, driver, evidence, links), executors (Web MIDI, Cardputer over Web Serial), audio oracle, pairing approvals, ?spike=midi.",
   "type": "module",
   "scripts": {
-    "dev": "vite build --watch --emptyOutDir",
-    "dev:hmr": "vite",
-    "build": "tsc -p tsconfig.json && vite build",
+    "dev": "node init && vite build --watch --emptyOutDir",
+    "dev:hmr": "node init && vite",
+    "build": "node init && tsc -p tsconfig.json && vite build",
     "typecheck": "tsc -p tsconfig.json",
     "preview": "vite preview"
   },

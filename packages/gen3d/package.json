@@ -9,7 +9,7 @@
     "./json-schema/*": "./json-schema/*"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json && node --import tsx scripts/gen-json-schema.ts",
+    "build": "node init && tsc -p tsconfig.json && node --import tsx scripts/gen-json-schema.ts",
     "typecheck": "tsc -p tsconfig.json",
     "gen:schema": "node --import tsx scripts/gen-json-schema.ts"
   },

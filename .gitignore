@@ -5,8 +5,6 @@ coverage/
 *.tsbuildinfo
 
 # secrets and local certificates (never commit)
-.env
-.env.*
 !.env.example
 .certs/
 .data/
@@ -41,3 +39,4 @@ MORNING.md
 .claude/
 HANDOFF.md
 Meta hack video script.md
+config.bat
